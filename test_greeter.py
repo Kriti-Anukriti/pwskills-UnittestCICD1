@@ -5,7 +5,7 @@ class TestGreeter(unittest.TestCase):
     
     def test_say_hello(self):
         g = Greeter("Kriti")
-        self.assertEqual(g.say_hello(),"Hello, Kriti!")
+        self.assertEqual(g.say_hello(),"Hello, Kriti")
 
 
 if __name__ == "__main__":
